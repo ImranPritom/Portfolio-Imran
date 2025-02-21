@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E5EAF4;
+
+        font-family: "Poppins", serif;
+
+}
+
+/* Navbar Start */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ddd; /* Optional border */
+    background-color: white;
+    top: 0;
+    position: sticky;
+}
+
+/* Navbar brand/logo container */
+.nav-part1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+/* Navbar brand/logo image */
+.logo-img img {
+    width: 40px;  /* Adjust size as needed */
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fills the circular area properly */
+    border: 3px solid #ddd; /* Optional border */
+    margin-right: 10px; /* Space between the image and the text */
+    background-color: white;
+}
+
+/* Navbar brand/logo text */
+.nav-part1 h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black; /* Adjust color as needed */
+    margin: 0;
+}
+
+/* Navbar links */
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: black; /* Adjust color as needed */
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+/* Change color on hover */
+ul li a:hover {
+    color: gray; /* Adjust hover color as needed */
+}
+
+/* Navbar END */
+
+/* landing page start */
+.landing-part {
+    text-align: center;
+    margin-top: 200px;
+    height: 80vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid black;
+}
+
+.landing-head {
+    font-size: 2em;
+}
+
+.landing-button button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff; /* Adjust color as needed */
+    color: white; /* Adjust color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.landing-pera {
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* landing page End */
+
+/* About us start */
+.aboutme-part {
+    text-align: center;
+    margin-top: 200px;
+    height: 30vh; /* Full viewport height */
+    width: 100%; /* Full width */
+}
+
+.aboutme-head {
+    font-size: 2em;
+    font-weight: bold; /* Added for emphasis */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.aboutme-pera {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    width: 50%;
+    line-height: 1.5; /* Improved readability */
+    color: #333; /* Adjust color as needed */
+}
+
+.skill-full {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.knowme {
+    margin-top: 50px;
+    width: 35%;
+    text-align: left;
+}
+
+.know-head h5 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.know-pera p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+}
+
+/* About us End */
+
